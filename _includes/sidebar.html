@@ -4,26 +4,24 @@
   </a>
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
+      <h1 style="font-family: 'Satisfy', cursive; font-size: 55px;">
+        {{ site.title }}
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p style="margin-top: 0.8rem;">
+      {{ site.description }}  &middot
+      <a role="button" href="https://www.linkedin.com/in/jingyi-xie-duke" target="_blank"
+        style="margin-right: 0.2rem; color: rgba(255,255,255,.5);">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a role="button" href="https://github.com/jingyi-xie" target="_blank" style="color: rgba(255,255,255,.5);">
+        <i class="fab fa-github"></i>
+      </a>
+      </p>
     </div>
-    <nav class="sidebar-nav">
-      
+    <nav class="sidebar-nav" style="margin-top: 1.5rem; font-family: 'Kalam', cursive; font-size: 25px;">
       <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
       <a class="sidebar-nav-item{% if page.title == "Projects" %} active{% endif %}" href="/projects">Projects</a>
       <a class="sidebar-nav-item" target="_blank" href="/public/resume.pdf">Resume</a>
     </nav>
-    <p>
-      <a role="button" href="https://www.linkedin.com/in/jingyi-xie-duke" target="_blank" style="margin-right: 0.5rem; color: rgba(255,255,255,.5);">
-        <i class="fab fa-linkedin"></i> Linkedin
-      </a>
-      <a role="button" href="https://github.com/jingyi-xie" target="_blank" style="color: rgba(255,255,255,.5);">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-    </p>
   </div>
 </div>
