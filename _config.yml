@@ -1,19 +1,19 @@
+# Permalinks
+#
+permalink:           /:categories/:year/:month/:day/:title/
+
 # Setup
-title:            Jingyi Xie
-description:      Software Engineer
-url:              https://jingyi-xie.com
-baseurl:          ''
-paginate:         5
+title:               Jingyi Xie
+description:         Software Engineer
+url:                 http://jingyi-xie.com
+baseurl:             ''
+paginate:            5
 
-# About and contact
+# Plugins, Tags, Categories and Analytics  
+plugins:          [jekyll-paginate]
+
+# About/contact
 author:
-  name:           'Jingyi Xie'
-  url:            https://www.linkedin.com/in/jingyi-xie-duke
-
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-
-# Custom vars
-version:          3.0.0
+  name:              Jingyi Xie
+  url:               https://www.linkedin.com/in/jingyi-xie-duke
+  email:             jingyi.xie@duke.edu
