@@ -40,4 +40,14 @@
 .timeline-body .timeline-item .content .date { 
   margin-top: -5px; 
   margin-bottom: 15px; 
-  color: #6c757d; }
+  color: #6c757d; 
+}
+.project.card { 
+  border-radius: 15px; 
+  text-decoration: none !important; 
+  margin: 10px auto; 
+  transition: transform 400ms; 
+}
+.project.card .card-img-top { 
+  border-radius: 15px 15px 0 0; 
+}
